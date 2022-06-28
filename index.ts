@@ -52,9 +52,9 @@ class MontyHall {
     this.calculation()
 
     console.clear()
-    console.log('\x1b[33m 몬티홀의 역설 \x1b[0m')
+    console.log('\x1b[33m 몬티 홀의 역설 \x1b[0m')
     console.log(`\x1b[46m${Number(this.getProbability * 100).toFixed(2)}%\x1b[0m (${this.success + this.fail}회)`)
-    console.log('몬티홀의 역설 확률은 [66.66%] 입니다.')
+    console.log('몬티 홀의 역설 확률은 [66.66%] 입니다.')
 
     setTimeout(() => {
       this.recursive()
